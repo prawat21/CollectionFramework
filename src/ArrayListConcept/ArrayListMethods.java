@@ -21,12 +21,15 @@ public class ArrayListMethods {
 		ar2.add("Automation");//0
 		ar2.add("TestLEAD");//1
 		
-		//ar1.addAll(ar2);
-		//	ar1.addAll(1, ar2);// Inserting the List to particular Index
-		//ar1.clear();// for clear arrayList
+		ar1.addAll(ar2);
 		System.out.println(ar1);
-		
-		System.out.println("------------------");
+		System.out.println("-----------------------------------");
+		ar1.addAll(1, ar2);// Inserting the List to particular Index
+		System.out.println(ar1);
+		System.out.println("-----------------------------------");
+		//ar1.clear();// for clear arrayList
+		//System.out.println(ar1);
+		//System.out.println("-----------------------------------");
 		
 		@SuppressWarnings("unchecked")
 		ArrayList<String> cloneList = (ArrayList<String>)ar1.clone();

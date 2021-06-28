@@ -15,7 +15,7 @@ public class GenericArrayList {
 		
 		ArrayList<String> arS = new ArrayList<String>();
 		arS.add("Puneet Loves GYM");
-		arS.clone();
+		//arS.clone();
 		System.out.println(arS);
 		//arS.clear();
 		
